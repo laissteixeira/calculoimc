@@ -61,7 +61,15 @@ opacity: 0.4;;
 .container .rightSide{
   background-color: rgb(157, 178, 249);
   flex:1;
+  display: flex;
 }
 
+.container .rightside .grid {
+  flex:1;
+  display: grid;
+  grid-template-columns: repeat (2, 1fr);
+  gap: 20px;
+
+}
 
 
